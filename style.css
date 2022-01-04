@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileBody {
+  background: #e5d43c;
+  height: 465px;
+  width: 210px;
+  border-radius: 20px;
+}
+
+.mobileSecreen {
+  background: #1a1a1a;
+  height: 228px;
+  width: 195px;
+  border-radius: 15px;
+  margin-left: 8px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.mainScreen {
+  background: #fff;
+  height: 190px;
+  width: 180px;
+  border-radius: 10px;
+  margin-left: 8px;
+  position: absolute;
+  top: 1.6rem;
+}
+
+p.greetingText {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.topDiv {
+  height: 5px;
+  width: 65px;
+  border-radius: 50px;
+  background: #a29e9e;
+  position: absolute;
+  left: 33%;
+  top: 10px;
+}
+
+p.phoneName {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.topButton {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button.btn {
+  padding: 2px 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background: #e2e261;
+  border: 1px solid #777;
+  border-radius: 10px;
+  color: #161515;
+}
+
+button.btn.meddelBtn {
+  padding: 10px 20px;
+}
+
+.bottomButton {
+  text-align: center;
+  display: flex;
+}
+
+.btnDiv .btn {
+  margin-bottom: 10px !important;
+}
+
+.bottomButton {
+  text-align: center;
+  display: flex;
+  padding-top: 15px;
+}
